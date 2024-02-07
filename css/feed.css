@@ -1,0 +1,129 @@
+.feed {
+    width: 500px;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 13px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.profile {
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.profile>p {
+    margin-left: 18px;
+    margin-right: auto;
+}
+
+.profile>p:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: auto;
+}
+
+.swiper {
+    width: 495px;
+}
+
+.swiper-slide>img {
+    width: 495px;
+    height: 631px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(168, 164, 164);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.feed-icons {
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.feed-icons>img {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.feed-icons>img:last-child {
+    margin-left: auto;
+}
+
+.likes {
+    margin-right: auto;
+    margin-left: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.captions {
+    width: 95%;
+    margin-top: 5px;
+}
+
+.captions>.title {
+    font-weight: bold;
+}
+
+.captions>.hashtag {
+    color: darkblue;
+}
+
+.count {
+    margin-right: auto;
+    margin-left: 16px;
+    margin-top: 10px;
+    color: lightgray;
+}
+
+.comment {
+    width: 95%;
+    border-bottom: 1px solid rgb(46, 40, 40);
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.comment-box {
+    width: 95%;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.comment-box>input {
+    border: none;
+    width: 95%;
+    margin-right: auto;
+    font-size: 16px;
+    background-color: transparent;
+    font-weight: lighter;
+}
+
+.comment-box>input:focus {
+    outline: none;
+    background-color: none;
+    text-indent: 0px;
+}
+
+.feed-profile {
+    width: 32px;
+}
